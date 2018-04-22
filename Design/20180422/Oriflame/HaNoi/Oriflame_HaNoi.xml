@@ -1,0 +1,108 @@
+<?xml-stylesheet type='text/xsl' href='Oriflame_HaNoi.xslt' ?>
+<Invoice>
+   <Content Id="SigningData">
+      <ArisingDate>30/01/2018</ArisingDate>
+      <InvoiceName>Hóa đơn giá trị gia tăng</InvoiceName>
+      <InvoicePattern>01GTKT0/001</InvoicePattern>
+      <SerialNo>HN/18E</SerialNo>
+      <InvoiceNo>2169</InvoiceNo>
+      <Kind_of_Payment>TM</Kind_of_Payment>
+      <ComName>MỸ PHẨM THƯỜNG XUÂN</ComName>
+      <ComTaxCode>0302697411</ComTaxCode>
+      <ComAddress>100-102 Nguyễn Văn Trỗi, Phường 8, Quận Phú Nhuận, Tp.HCM</ComAddress>
+      <ComPhone>0918066933</ComPhone>
+      <ComBankNo>34234234</ComBankNo>
+      <ComBankName>sdgdfhghfg</ComBankName>
+      <CusCode>000432</CusCode>
+      <CusName>C??ng ty c??? ph???n c??ng ngh??? TNC</CusName>
+      <CusTaxCode>0107764262</CusTaxCode>
+      <CusPhone>0941188339</CusPhone>
+      <CusAddress>H?? N???i</CusAddress>
+      <CusBankName />
+      <CusBankNo />
+      <Total>2000000</Total>
+      <VAT_Amount>200000</VAT_Amount>
+      <Amount>2200000</Amount>
+      <Amount_words>Hai tri???u hai tr??m ngh??n vi???t nam ?????ng</Amount_words>
+      <Extras />
+      <Buyer>Nguy???n Nh?? Ngh??a</Buyer>
+      <GrossValue>0</GrossValue>
+      <GrossValue0>0</GrossValue0>
+      <VatAmount0>0</VatAmount0>
+      <GrossValue5>0</GrossValue5>
+      <VatAmount5>0</VatAmount5>
+      <GrossValue10>0</GrossValue10>
+      <VatAmount10>0</VatAmount10>
+      <GrossValueNonTax>0</GrossValueNonTax>
+      <CurrencyUnit />
+      <ExchangeRate>0</ExchangeRate>
+      <ConvertedAmount>0</ConvertedAmount>
+      <Extra1 />
+      <Extra2 />
+      <EmailDeliver />
+      <SMSDeliver />
+      
+      <VAT_Rate>10</VAT_Rate>
+      <KindOfService>05</KindOfService>
+      <Discount_Rate>0</Discount_Rate>
+      <Discount_Amount>0</Discount_Amount>
+      <Products>
+         <Product>
+            <Code />
+            <Extra1 />
+            <Extra2 />
+            <Remark />
+            <Total>0</Total>
+            <ProdName>R?????u vang</ProdName>
+            <ProdUnit>chai</ProdUnit>
+            <ProdQuantity>10</ProdQuantity>
+            <ProdPrice>200000</ProdPrice>
+            <Discount>0</Discount>
+            <DiscountAmount>0</DiscountAmount>
+            <VATRate>0</VATRate>
+            <VATAmount>0</VATAmount>
+            <Amount>2000000</Amount>
+         </Product>
+      </Products>
+      <Extra />
+	  
+	  <PAYMENTREQUEST>40500</PAYMENTREQUEST>
+      <PREPAYMENTAMOUNT>9000</PREPAYMENTAMOUNT>
+      <TOTALBP>3</TOTALBP>
+      <TOTALPAY>49500</TOTALPAY>
+      <TOTALQUANTITY>555</TOTALQUANTITY>
+      <TOTALWEIGHT>2</TOTALWEIGHT>
+      <ORDERID>91105123</ORDERID>
+      <ORDERNUMBER>1700238999</ORDERNUMBER>
+      <POSTALNOTE>HCM GIAO TAI NHA (POSTAL)</POSTALNOTE>
+      <REFERENCENUM>0452224</REFERENCENUM>
+	  
+      <SignDate>19/04/2018</SignDate>
+   </Content>
+    <image>Signature Valid</image> <!--  -->
+	<convert>1</convert>  
+	<ConvertForVerify>Hóa Đơn Chuyển Đổi Từ Hóa Đơn Điện Tử Để Chứng Minh Nguồn Gốc Xuất Xứ</ConvertForVerify>
+	<ConvertBy></ConvertBy> <!--  -->
+	<ConvertDate></ConvertDate> <!--  -->
+	<CNCom></CNCom>
+   <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="serSig">
+      <SignedInfo>
+         <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+         <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+         <Reference URI="#SigningData">
+            <Transforms>
+               <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>9KvxI+JrQkt+4lv3FQcJrBwk0TE=</DigestValue>
+         </Reference>
+      </SignedInfo>
+      <SignatureValue>l28JDF2mhi0/BVKEmW3wPqd43hsM8F3DrZOBsQjTlEooqlH4V2r1lhJIG08YC3jmKAIuEcjVbNZIr4D7P+xcGp2o9ZVjqZpdQexlqJhSOEIyleCItBjeEdNK6syMIMnd2m+hrunXbAFQtEnU90nK2RyeSaRwBgm6pZJr6tz1Z8M=</SignatureValue>
+      <KeyInfo>
+         <X509Data>
+            <X509Certificate>MIIFxTCCA62gAwIBAgIQVAEBAWzLIuPOvoGtlqOedDANBgkqhkiG9w0BAQUFADBpMQswCQYDVQQGEwJWTjETMBEGA1UEChMKVk5QVCBHcm91cDEeMBwGA1UECxMVVk5QVC1DQSBUcnVzdCBOZXR3b3JrMSUwIwYDVQQDExxWTlBUIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTE4MDQxMTE1MTU1MFoXDTE5MDQxMTE5MjgwMFowgZsxCzAJBgNVBAYTAlZOMRQwEgYDVQQIDAvEkMOAIE7hurRORzETMBEGA1UEBwwKVGhhbmggS2jDqjE9MDsGA1UEAww0Q0hJIE5Iw4FOSCBDw5RORyBUWSBUTkhIIE3hu7ggUEjhuqhNIFRIxq/hu5xORyBYVcOCTjEiMCAGCgmSJomT8ixkAQEMEk1TVDowMzAyNjk3NDExLTAwMzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5k6I3tALIsN106G9QyfbTto33VNJ02nc4QiiwXP6NonLjWEbDbXFrSZ++ececdpO/x/r4lct1IgzX5BfxEOv/3YQ2Pzr9IrGGmmyYAOs/LAQfhfl4lS09zLYsg8OHqB+nU/Lq3jGoXibSFFmKrmcdJSjNEaUgBOBiIG/w2bGB9ECAwEAAaOCAbgwggG0MHAGCCsGAQUFBwEBBGQwYjAyBggrBgEFBQcwAoYmaHR0cDovL3B1Yi52bnB0LWNhLnZuL2NlcnRzL3ZucHRjYS5jZXIwLAYIKwYBBQUHMAGGIGh0dHA6Ly9vY3NwLnZucHQtY2Eudm4vcmVzcG9uZGVyMB0GA1UdDgQWBBRgEANRnm9nZtJKbVcblSgtWE/CmDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFAZpwNXVAooVjUZ96XziaApVrGqvMGsGA1UdIARkMGIwYAYNKwYBBAGB7QMBAQMBBTBPMCYGCCsGAQUFBwICMBoeGABEAEkARAAtAEIAMQAuADAALQAzADYAbTAlBggrBgEFBQcCARYZaHR0cDovL3B1Yi52bnB0LWNhLnZuL3JwYTAxBgNVHR8EKjAoMCagJKAihiBodHRwOi8vY3JsLnZucHQtY2Eudm4vdm5wdGNhLmNybDAOBgNVHQ8BAf8EBAMCBPAwHwYDVR0lBBgwFgYIKwYBBQUHAwIGCisGAQQBgjcKAwwwIQYDVR0RBBowGIEWdGh1eS5kYW5nQG9yaWZsYW1lLmNvbTANBgkqhkiG9w0BAQUFAAOCAgEAf06gdZxs98DLthniTpxayJYB0nCBN8KJ7ee73AL6fbudqjIqTC4QX9KiUoaJzWR7PMiE02p2qjTXGo6XTb7XrTduhqMBJ6PBgNMUaD/FD44hZnoVTM/iHrGZYiIUyHceBcsckh+LuMeluNreFMhusl1sKxk++3ufLTl3n327YAeqpkwsvPpmByIBNtkO2UYUSBRpvq66LGD5d906cbQXKkN/Fo1ad901JqDmlwY5Wfp7ejk5SRdWetGKLlLXmcfz5HnDgWc1a3jwjL+FaPbErLBJUrKILQxdKtbfJIvt5KYCUaO2sy9K7lJQlvEKGThPF8lFkAeCZzLxyOxVXHcJA7uBOI+geMMG3fraoVmmOh6duPaFsEUpScGYnjmVFK421QwfICSJ1zNbxf/6Krvay0GCYogO4tKpiwBrQKr8ih2Da0wspg0NuqS7EjwBYYijhK/vk1HJHb/VIgWXNsdVpsPcaie5bWQ2PTly7se75wq8b6+PWpwHPb3OfhxyM+AOMPlUqw3LxUGLqUID8xs2HhyekQ/jxVhi1wsBSTt1U59z3VO0cwX2sfmHsTVPcSp4eugBrf65y0KO7hWMH4ATAPt0nJJtAASDAtf5MBohKd9fs97XfAvYCV+lU1QDRA5Nucf96+T1RvhcA9f3EK0xHSur3PKl8ISNXgmB4xv5nvs=</X509Certificate>
+         </X509Data>
+      </KeyInfo>
+   </Signature>
+</Invoice>
+
