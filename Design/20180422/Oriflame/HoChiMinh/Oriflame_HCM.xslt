@@ -470,7 +470,7 @@
                                 </xsl:choose>
                             </div>                       
                         </td>
-                        <td rowspan="2" valign="top" style="width:285px; text-align:center;font-size:26px!important; font-weight:bold;">
+                        <td rowspan="2" valign="top" style="width:285px; text-align:center;font-size:26px!important; font-weight:bold;padding-top:8px;line-height:24px;">
                             HÓA ĐƠN
                             <br/>
                             GIÁ TRỊ GIA TĂNG
@@ -478,19 +478,19 @@
                             <xsl:choose>
                                 <xsl:when test="substring(ArisingDate,7,4)!= '1957' and substring(../../ArisingDate,7,4)!= ''">
                                     <label  class="fl-l" style="padding-left:55px;">
-                                        Ngày <br/> <br/> <i>(date)</i>
+                                        Ngày <br/> <i>(date)</i>
                                     </label>
                                     <label class="fl-l input-date"  style=" color:#000000; font-weight:bold;display:block;">
                                         <xsl:value-of select="substring(../../ArisingDate,1,2)" />
                                     </label>
                                       		<label  class="fl-l">
-                                        tháng <br/> <br/> <i>(month)</i>
+                                        tháng <br/>  <i>(month)</i>
                                     </label>
                                     <label class="fl-l input-date"  style=" color:#000000; font-weight:bold;display:block;">
                                         <xsl:value-of select="substring(../../ArisingDate,4,2)" />
                                     </label>
                                       		<label  class="fl-l">
-                                        năm <br/> <br/> <i>(year)</i>
+                                        năm <br/> <i>(year)</i>
                                     </label>
                                     <label class="fl-l input-date"  style=" color:#000000; font-weight:bold;display:block; ">
                                         <xsl:value-of select="concat('20',substring(../../ArisingDate,9,2))" />
@@ -498,19 +498,19 @@
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <label  class="fl-l" style="padding-left:55px;">
-                                        Ngày <br/> <br/> <i>(date)</i>
+                                        Ngày <br/>  <i>(date)</i>
                                     </label>
                                     <label class="fl-l input-date"  style=" color:#000000; font-weight:bold;display:block;text-align:center;">
                                         &#160;
                                     </label>
                                     <label  class="fl-l">
-                                        tháng <br/> <br/> <i>(month)</i>
+                                        tháng <br/> <i>(month)</i>
                                     </label>
                                     <label class="fl-l input-date"  style=" color:#000000; font-weight:bold;display:block;text-align:center;">
                                         &#160;
                                     </label>
                                     <label  class="fl-l">
-                                        năm <br/> <br/> <i>(year)</i>
+                                        năm <br/> <i>(year)</i>
                                     </label>
                                     <label class="fl-l input-date"  style=" color:#000000; font-weight:bold;display:block; text-align:center;">
                                         &#160;
@@ -1105,7 +1105,7 @@
 		<tr>
 			<td colspan="8" style="border:none!important;">
 				<div style="width:650px;float:right;text-align:left; border-bottom:1px solid #000;padding-top:10px;	">
-					Tra cứu dịch vụ hóa đơn điện tử tại: https://hoadon.vn.oriflame.com với Mã số bí mật: <xsl:value-of select="../../REFERENCENUM" />
+					Tra cứu dịch vụ hóa đơn điện tử tại: http://hoadon.vn.oriflame.com với Mã số bí mật: <xsl:value-of select="../../REFERENCENUM" />
 				</div>
                 <!--<div style="width:900px;float:left;text-align:center;">
 					<b>Cần kiểm tra đối chiếu khi lập, giao, nhận hóa đơn. (Need to check when prepare, delivery invoice)</b>
@@ -1167,7 +1167,7 @@
                     }
                     @page {
 						size: A4;
-						margin: 2mm 2mm 2mm 2mm; /* change the margins as you want them to be. */
+						margin: 2mm 8mm 2mm 8mm; /* change the margins as you want them to be. */
                     }
                     #ViewInvoice{
                     height:auto!important;
